@@ -13,10 +13,6 @@ const Navbar = () => {
             <ul className='flex gap-4 items-center bg-slate-100 rounded-full max-w-full shadow-lg p-2 md:p-3'>
                 <NavLink to='/'><li>Home</li></NavLink>
                 <NavLink to='/products'><li>Products</li> </NavLink>
-                {/* <input
-                value={searchQuery}
-                 onChange={handleSearch} 
-                 type="search" placeholder='Search Products' /> */}
             </ul>
             <div className='flex items-center text-white pr-4 gap-5'>
             {/* <Cart/> */}
